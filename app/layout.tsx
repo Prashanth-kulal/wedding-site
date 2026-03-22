@@ -14,22 +14,28 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Kavya ❤️ Arjun Wedding",
-  description: "Join us to celebrate our wedding 💍",
+  description: "You're invited to our wedding 💍 Join us for the celebration!",
 
   openGraph: {
-    title: "Kavya ❤️ Arjun Wedding",
-    description: "You're invited to our wedding 💖",
+    title: "Kavya ❤️ Arjun Wedding 💍",
+    description: "Join us to celebrate our special day ❤️",
     url: "https://kavya-arjun-wedding-site.vercel.app",
     siteName: "Wedding Invite",
     images: [
       {
-        url: "https://kavya-arjun-wedding-site.vercel.app/images/hero.jpg"
+        url: "https://kavya-arjun-wedding-site.vercel.app/images/hero.jpg",
         width: 1200,
         height: 630,
       },
     ],
-    locale: "en_US",
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Kavya ❤️ Arjun Wedding",
+    description: "You're invited 💖",
+    images: ["https://kavya-arjun-wedding-site.vercel.app/images/hero.jpg"],
   },
 };
 
