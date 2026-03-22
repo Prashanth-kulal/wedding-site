@@ -23,7 +23,7 @@ export const metadata = {
     siteName: "Wedding Invite",
     images: [
       {
-        url: "/images/hero.jpg", // IMPORTANT
+        url: "https://kavya-arjun-wedding-site.vercel.app/images/hero.jpg"
         width: 1200,
         height: 630,
       },
