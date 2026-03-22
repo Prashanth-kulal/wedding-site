@@ -140,7 +140,7 @@ export default function Home() {
             </a>
 
             <a
-              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
+              href={`https://api.instagram.com/send?text=${encodeURIComponent(
                 "You're invited to our wedding 💍 Check this out: https://kavya-arjun-wedding-site.vercel.app"
               )}`}
               target="_blank"
