@@ -130,7 +130,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
 
             <a
-              href="https://wa.me/?text=You're invited to our wedding! 💍 Check this out: https://your-site-link.vercel.app"
+              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
+                "You're invited to our wedding 💍 Check this out: https://kavya-arjun-wedding-site.vercel.app"
+              )}`}
               target="_blank"
               className="bg-green-500 text-white px-6 py-2 rounded-full w-64 text-center"
             >
@@ -138,9 +140,11 @@ export default function Home() {
             </a>
 
             <a
-              href="https://www.instagram.com/"
+              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
+                "You're invited to our wedding 💍 Check this out: https://kavya-arjun-wedding-site.vercel.app"
+              )}`}
               target="_blank"
-              className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-6 py-2 rounded-full w-64 text-center"
+              className="bg-green-500 text-white px-6 py-2 rounded-full w-64 text-center"
             >
               Share on Instagram 📸
             </a>
